@@ -278,11 +278,11 @@ Quick">
           
 
           
-		  
-		  	 <span id="/2017/01/06/hello-world/"class="leancloud_visitors"  data-flag-title="Hello World">
-            &nbsp; | &nbsp; 阅读次数
-            </span>
-		  
+	
+	 <span id="/2017/01/06/hello-world/"class="leancloud_visitors"  data-flag-title="Hello World">
+        &nbsp; | &nbsp; 阅读次数
+        </span>
+
           
           
              <span id="/2017/01/06/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
@@ -406,7 +406,7 @@ Quick">
       <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="http://example.com/icon.jpg"
+               src="https://github.com/behindeye/behindeye.github.io/blob/master/images/icon.jpg?raw=true"
                alt="czc" />
           <p class="site-author-name" itemprop="name">czc</p>
           <p class="site-description motion-element" itemprop="description">this is czc's blog~</p>
@@ -673,6 +673,16 @@ Quick">
 
   
   
+  
+  <script type="text/javascript" src="/js/lazyload.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#posts").find('img').lazyload({
+        placeholder: "/images/loading.gif",
+        effect: "fadeIn"
+      });
+    });
+  </script>
   
   	 <!-- custom analytics part create by xiamo -->
 <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
